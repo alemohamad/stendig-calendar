@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+  <meta name="format-detection" content="telephone=no">
+  <title>Stendig Calendar</title>
+
+  <meta name="author" content="Ale Mohamad">
+  <link rel="stylesheet" media="all" href="styles.css">
+
+  <meta name="apple-mobile-web-app-title" content="Stendig">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+
+  <link rel="apple-touch-icon-precomposed" sizes="57x57" href="apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon-precomposed" sizes="60x60" href="apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon-precomposed" sizes="76x76" href="apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon-precomposed" sizes="120x120" href="apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon-precomposed" sizes="152x152" href="apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon-precomposed" sizes="180x180" href="apple-touch-icon-180x180.png">
+</head>
+
+<body>
+  <div class="stendig">
+    <h2 class="year" id="year">2014</h2>
+    <h2 class="month" id="month">October</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>M</td>
+          <td>T</td>
+          <td>W</td>
+          <td>T</td>
+          <td>F</td>
+          <td>S</td>
+          <td>S</td>
+        </tr>
+      </thead>
+      <tbody id="calendar-body">
+        <tr>
+          <td></td>
+          <td></td>
+          <td>1</td>
+          <td>2</td>
+          <td>3</td>
+          <td>4</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>7</td>
+          <td>8</td>
+          <td>9</td>
+          <td class="k10">10</td>
+          <td class="k13">11</td>
+          <td class="k10">12</td>
+        </tr>
+        <tr>
+          <td class="k10">13</td>
+          <td class="k10">14</td>
+          <td class="k10">15</td>
+          <td class="k10">16</td>
+          <td class="k13">17</td>
+          <td class="k10">18</td>
+          <td class="k10">19</td>
+        </tr>
+        <tr>
+          <td class="k3">20</td>
+          <td>21</td>
+          <td class="k3">22</td>
+          <td class="k3">23</td>
+          <td>24</td>
+          <td>25</td>
+          <td>26</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td class="k3">28</td>
+          <td class="k3">29</td>
+          <td class="k3">30</td>
+          <td class="k10">31</td>
+          <td></td>
+          <td></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="controls">
+    <a href="#" class="toggle-bg">
+      <svg width="20" height="20" xmlns="http://www.w3.org/2000/svg">
+        <path d="M18.5 16.2A10 10 0 0 1 10.7 0a10 10 0 1 0 8.1 16.2h-.3z" fill="#9B9B9B" fill-rule="evenodd"/>
+      </svg>
+    </a>
+  </div>
+
+  <script src="scripts.js"></script>
+
+</body>
+</html>

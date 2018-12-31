@@ -1,0 +1,136 @@
+html,
+body {
+  height: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+body {
+  display: flex;
+  margin: 0;
+  line-height: 1.5;
+}
+body.dark {
+  background: #101010;
+  color: #eaeaea;
+}
+.stendig {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900;
+  width: 520px;
+  margin: auto;
+  position: relative;
+  padding-top: 88px;
+  top: -44px;
+}
+.stendig h2 {
+  position: absolute;
+  top: 0;
+  letter-spacing: -1px;
+  font-size: 1.2em;
+}
+.stendig .year {
+  left: 288px;
+}
+.stendig .month {
+  left: 360px;
+}
+.stendig table {
+  width: 504px;
+  font-size: 56px;
+  border-spacing: 0;
+}
+.stendig table thead {
+  vertical-align: top;
+}
+.stendig table:hover td.today {
+  color: #7512ed;
+}
+.stendig table td {
+  width: 72px;
+  height: 44px;
+  line-height: 40px;
+  text-align: left;
+  border-left: 0.5px solid #999;
+  vertical-align: top;
+  transition: color 300ms ease-in;
+  letter-spacing: -5px;
+}
+.stendig table td.k3 {
+  letter-spacing: -3px;
+}
+.stendig table td.k10 {
+  letter-spacing: -10px;
+}
+.stendig table td.k13 {
+  letter-spacing: -13px;
+}
+body.dark .stendig table td {
+  border-color: #999;
+}
+body.dark .stendig:hover td.today {
+  color: #ed1278;
+}
+@media (max-width: 740px) {
+  .stendig {
+    width: 320px;
+  }
+  .stendig table td.k10 {
+    letter-spacing: -6px;
+  }
+  .stendig table td.k13 {
+    letter-spacing: -8px;
+  }
+  .stendig h2 {
+    font-size: 1em;
+  }
+  .stendig table {
+    width: 320px;
+    font-size: 35px;
+  }
+  .stendig table td {
+    width: 46px;
+    height: 27px;
+    line-height: 30px;
+    letter-spacing: -3px;
+  }
+  .stendig .year {
+    left: 184px;
+  }
+  .stendig .month {
+    left: 230px;
+  }
+}
+/* -----
+SVG Icons - svgicons.sparkk.fr
+----- */
+.svg-icon {
+  width: 2em;
+  height: 2em;
+}
+.svg-icon path,
+.svg-icon polygon,
+.svg-icon rect {
+  fill: #4691f6;
+}
+.svg-icon circle {
+  stroke: #4691f6;
+  stroke-width: 1;
+}
+.controls {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+.controls a {
+  display: inline-block;
+  color: #4691f6;
+  text-decoration: none;
+  transition: color 300ms ease-in;
+}
+.controls a span {
+  position: relative;
+  top: -8px;
+}
+.controls a:hover {
+  color: #031a3a;
+}
